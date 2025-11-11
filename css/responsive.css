@@ -496,3 +496,11 @@
 	font-size: 13px;
 }
 }
+/* Thêm vào cuối file responsive.css */
+@media (max-width: 767px) {
+  .slider-image {
+    background-size: contain !important; 
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+  }
+}
